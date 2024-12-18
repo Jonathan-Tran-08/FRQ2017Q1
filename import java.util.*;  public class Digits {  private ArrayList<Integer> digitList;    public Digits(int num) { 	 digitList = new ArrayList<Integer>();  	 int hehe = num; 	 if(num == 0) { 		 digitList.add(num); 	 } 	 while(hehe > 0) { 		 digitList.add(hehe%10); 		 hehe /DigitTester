@@ -1,0 +1,11 @@
+public class DigitTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Digits d1 = new Digits(15704);
+		for(Integer i: d1.getDigitList()) {
+			System.out.println(i);
+		}
+	}
+
+}
