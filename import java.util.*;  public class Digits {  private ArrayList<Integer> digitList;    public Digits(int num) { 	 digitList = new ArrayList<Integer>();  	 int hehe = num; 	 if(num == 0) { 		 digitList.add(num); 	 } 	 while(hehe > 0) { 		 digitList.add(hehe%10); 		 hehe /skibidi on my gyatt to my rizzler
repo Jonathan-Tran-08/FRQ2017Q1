@@ -11,7 +11,7 @@ public class Digits {
 	 }
 	 while(hehe > 0) {
 		 digitList.add(hehe%10);
-		 hehe / 10;
+		 hehe = hehe / 10;
 	 }
  }
  
