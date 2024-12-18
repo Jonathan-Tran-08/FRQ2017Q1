@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class Digits {
+ private ArrayList<Integer> digitList;
+ 
+ public Digits(int num) {
+	 digitList = new ArrayList<Integer>(); 
+	 int hehe = num;
+	 if(num == 0) {
+		 digitList.add(num);
+	 }
+	 while(hehe > 0) {
+		 digitList.add(hehe%10);
+		 hehe / 10;
+	 }
+ }
+ 
+ 
+ public ArrayList<Integer> getDigitList(){
+	 return digitList;
+ }
+ 
+ public boolean isStrictlyincreasing() {
+	 return true;
+ }
+}
